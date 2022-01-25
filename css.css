@@ -1,0 +1,123 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #27a9df;
+}
+.carcasa_negra {
+  background-color: #3d3d3d;
+  width: 380px;
+  height: 430px;
+  /* justify-content: center; */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.borde_pestaña {
+  background-color: #262626;
+  width: 300px;
+  height: 145px;
+  margin-bottom: 25px;
+  margin-right: 65px;
+  border-radius: 0px 25px 25px 25px;
+}
+.pestaña_metalica {
+  background-color: #c8c8c8;
+  width: 250px;
+  height: 145px;
+  margin-left: 50px;
+  border-radius: 0px 0px 25px 10px;
+}
+.rectangulo_negro {
+  background-color: black;
+  width: 15px;
+  height: 5px;
+  margin-left: 20px;
+}
+
+.pegatina_datos {
+  background-color: white;
+  width: 360px;
+  height: 270px;
+  border-radius: 30px 30px 0px 0px;
+  border-top: 5px solid #252525;
+  border-right: 5px solid #252525;
+  border-left: 5px solid #252525;
+}
+
+hr {
+  background-color: black;
+  width: 345px;
+  height: 5px;
+  margin: 40px auto -9px auto;
+}
+.encabezado_pegatina_datos {
+  background-color: red;
+  width: 360px;
+  height: 60px;
+  border-radius: 25px 25px 0px 0px;
+  /* margin-bottom: 80px; */
+}
+
+.rectangulo_negro_grande {
+  background-color: black;
+  width: 60px;
+  height: 115px;
+  margin-left: 155px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+.modelo {
+  margin-right: 20px;
+}
+.disquete_body {
+  background-color: #3d3d3d;
+  display: flex;
+  flex-direction: unset;
+  justify-content: center;
+  width: 450px;
+  height: 430px;
+  border-radius: 10px;
+}
+.flecha {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.triangulo {
+  background-color: black;
+  width: 10px;
+  height: 10px;
+}
+.cuadrado {
+  background-color: black;
+  width: 10px;
+  height: 12px;
+  margin: 0px 0px 0px 3px;
+}
+
+.arrow-up {
+  width: 0px;
+  height: 35px;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 25px solid black;
+}
+.cuadrado_agujero {
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  margin: 300px 0px 0px 0px;
+}
+.cuadrado_agujero_dos {
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    margin: 370px 0px 0px 0px;
+  }
+  .fondo_azul{
+    background-color: #27a9df; 
+    height: 15px;
+width: 20px;
+  }
